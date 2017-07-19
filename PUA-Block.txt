@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20170718
+!Version: 20170719
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -47,6 +47,10 @@ bbs.realqwh.cn###main > .tac
 bbs.vc52.cn##.a_pt
 bbs.duba.net###s-loginbar-Login
 bbs.iwin10.com##.a_cn
+www.zimuzu.tv##.top-box > div:nth-of-type(5)
+||www.repaik.com/static/image/common/ad.gif$image
+www.repaik.com##.a_pt
+www.repaik.com###hd
 !视频网站
 www.youtube.com###header
 v.pptv.com###video-download-game
