@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20170719
+!Version: 20170724
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -34,6 +34,8 @@ cn.bing.com###b_context
 cn.bing.com##.b_ad
 www.sogou.com###right
 note.youdao.com##.ng-scope.sidebar-ft
+www.google.com##.ads-ad:nth-of-type(1)
+www.google.com##.ads-ad:nth-of-type(2)
 !购物网站
 ||img.alicdn.com/simba/img/*.jpg$image
 sell.taobao.com###tanxssp-outer-conmm_12852562_1778064_13276784
@@ -51,6 +53,8 @@ www.zimuzu.tv##.top-box > div:nth-of-type(5)
 ||www.repaik.com/static/image/common/ad.gif$image
 www.repaik.com##.a_pt
 www.repaik.com###hd
+www.repaik.com##.a_c.bm
+potplayer.bbs.am###ad_thread2_99999999
 !视频网站
 www.youtube.com###header
 v.pptv.com###video-download-game
