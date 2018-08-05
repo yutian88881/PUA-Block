@@ -19,6 +19,7 @@ www.baidu.com###clone
 www.baidu.com##.FsLdKO:nth-of-type(1)
 www.baidu.com###content_left > div:nth-of-type(2)
 www.baidu.com##.lIkCqt.ISMJkd
+www.baidu.com##.rrecom-container
 
 !扩展及脚本站、样式站主页
 tampermonkey.net##.scripts.p100100.noborder > tbody > tr > td:nth-of-type(2)
@@ -94,6 +95,8 @@ mydown.yesky.com##.top.cl
 www.orsoon.com###xzq0 > h3
 www.orsoon.com###xzq0
 www.orsoon.com##.fl.w_870 > div:nth-of-type(2)
+www.qiqi6688.cc##.ty960
+www.qiqi6688.cc##.lr640
 www.greenxf.com##.download-list > li:nth-of-type(1)
 www.greenxf.com##.download-list > li:nth-of-type(2)
 www.greenxf.com##.download-list > li:nth-of-type(3)
@@ -111,6 +114,7 @@ www.33lc.com##.sort_list > .clearfix:nth-of-type(1)
 www.33lc.com##.list_lf
 www.33lc.com##.list_rg
 www.33lc.com##.md_bt
+www.33lc.com##dl.clearfix:nth-of-type(1)
 www.xp85.com##.xzq.tlcxaq.dl-bd
 www.xp85.com##.dl-box:nth-of-type(1) > .dl-hd
 www.xp85.com##.adr-down
@@ -187,10 +191,8 @@ www.962.net##.address_like:nth-of-type(3)
 www.962.net##.address_like:nth-of-type(4)
 www.962.net##.address_like:nth-of-type(1)
 www.962.net###m-game-down > h3:nth-of-type(1)
-www.xp510.com##.xzbox-lf > .clearfix:nth-of-type(1)
-www.xp510.com##.red.title
-www.xp510.com##.mt20.show-ad
-www.xp510.com##.c-left > .mt20:nth-of-type(5)
+www.xp510.com##.xzbox-gh
+www.xp510.com##div.mt20.box_right:nth-of-type(4)
 www.zol.com.cn##.n1-pad-entrance-wrap:nth-of-type(1)
 www.zol.com.cn##.n1-pad-entrance-wrap:nth-of-type(1)
 www.zol.com.cn##.today-hot-layer
@@ -350,3 +352,12 @@ www.iefans.net##.ad
 www.rjno1.com###user2 > div:nth-of-type(2)
 www.rjno1.com##.user3-ad
 www.rjno1.com##.user2-ad
+www49.zippyshare.com##.center_ad
+www49.zippyshare.com##.center:nth-of-type(3)
+www.upload.ee###smad_parentcee82794-bb0b-4a1b-b027-2114ffd57eb7
+www.upload.ee###smad_parentc1d1b9fa-8a12-4488-9a50-e09769953ecf
+ip.chinaz.com###topTxt
+ip.chinaz.com###loc
+ip.chinaz.com##.mt10.ptb10.wrapper
+ifkjx.com###\39 1banner > .col-md-12
+ifkjx.com###\39 1shengqian
