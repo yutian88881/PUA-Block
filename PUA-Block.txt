@@ -361,3 +361,39 @@ ip.chinaz.com###loc
 ip.chinaz.com##.mt10.ptb10.wrapper
 ifkjx.com###\39 1banner > .col-md-12
 ifkjx.com###\39 1shengqian
+
+!20181006增加
+mydown.yesky.com##.yestkydownad
+mydown.yesky.com##.blank30
+mydown.yesky.com##.diy-banner > .blank20
+www.wishdown.com###_ys_xiazai2
+www.sonimei.cn##center
+www.ddooo.com##.bottom1
+www.xigua17.com##dl:nth-of-type(7) > [href="http://1.055intn.cn:60/n2/150"]
+www.xigua17.com##.wrap > [href="http://1.055intn.cn:60/n2/150"]
+www.xigua17.com##.mtop.play-right > [href="http://1.055intn.cn:60/n2/150"]
+www.onlinedown.net##.onedownwp
+www.onlinedown.net##.downxzqtir
+www.yxdown.com###highdown1
+www.yxdown.com##.dl
+www.yxdown.com##.gsdown > ul
+www.yxdown.com###xx660
+www.fxxz.com##li.f-down-link.address_like:nth-of-type(1)
+www.ddooo.com##.DownloadSfot > .hf
+bbs.zhiyoo.com###showlogin
+bbs.zhiyoo.com##.tips_screen
+bbs.zhiyoo.com###sitefocus
+www.pcsoft.com.cn##.clearfix.xz_list > .zjbb_lb.list_ltbox.list_rg
+www.pcsoft.com.cn##div.mar0.xzsbox:nth-of-type(6)
+www.pcsoft.com.cn##.gsxzdl.clearfix
+www.pcsoft.com.cn###tab_list_id > .cpu-feeds-block
+www.05sun.com##.soft.ct-c
+www.05sun.com##.soft.add-l > span:nth-of-type(2)
+www.minixiazai.com##ul.zm.mod-list:nth-of-type(1)
+www.minixiazai.com##h3.mg-t5:nth-of-type(2)
+www.minixiazai.com##h3.mg-t5:nth-of-type(3)
+bbs.winning11cn.com##.a_cb.a_fl
+bbs.winning11cn.com##.a_cb.a_fr
+bbs.winning11cn.com##.a_t.wp
+bbs.winning11cn.com##.a_cn
+bbs.pcbeta.com###sitefocus
