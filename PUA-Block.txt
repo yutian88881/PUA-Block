@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20181006
+!Version: 20181013
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -27,9 +27,10 @@ userstyles.org##.adsbygoogle
 greasyfork.org###home-ad
 greasyfork.org###script-show-info-ad
 
-!起点小说网的
+!小说网站
 www.qidian.com###banner3
 www.qidian.com###banner4
+
 !门户网站
 cn.bing.com###b_context
 cn.bing.com##.b_ad
@@ -37,11 +38,13 @@ www.sogou.com###right
 note.youdao.com##.ng-scope.sidebar-ft
 www.google.com##.ads-ad:nth-of-type(1)
 www.google.com##.ads-ad:nth-of-type(2)
+
 !购物网站
 ||img.alicdn.com/simba/img/*.jpg$image
 sell.taobao.com###tanxssp-outer-conmm_12852562_1778064_13276784
 sell.taobao.com###main-content > span
 trade.taobao.com##.sold-ads-container
+
 !社交论坛
 www.tianya.cn###couplet_right
 www.tianya.cn###couplet_left
@@ -56,6 +59,15 @@ www.repaik.com##.a_pt
 www.repaik.com###hd
 www.repaik.com##.a_c.bm
 potplayer.bbs.am###ad_thread2_99999999
+bbs.winning11cn.com##.a_cb.a_fl
+bbs.winning11cn.com##.a_cb.a_fr
+bbs.winning11cn.com##.a_t.wp
+bbs.winning11cn.com##.a_cn
+bbs.pcbeta.com###sitefocus
+bbs.zhiyoo.com###showlogin
+bbs.zhiyoo.com##.tips_screen
+bbs.zhiyoo.com###sitefocus
+
 !视频网站
 www.youtube.com###header
 v.pptv.com###video-download-game
@@ -66,6 +78,7 @@ www.zhibo8.cc##.ad_box_250
 */MediaPlugin.swf$domain=sports.qq.com
 ||imgcache.qq.com/*/MediaPlugin.swf$domain=~sports.qq.com
 ||v.qq.com/x/webtips$subdocument
+
 !招聘网站
 www.liepin.com##.guider
 
@@ -92,6 +105,9 @@ www.xiazaiba.com##.gs-btns.clearfix.dl-btns
 www.xiazaiba.com##.dl-item:nth-of-type(1)
 mydown.yesky.com##.bkdown
 mydown.yesky.com##.top.cl
+mydown.yesky.com##.yestkydownad
+mydown.yesky.com##.blank30
+mydown.yesky.com##.diy-banner > .blank20
 www.orsoon.com###xzq0 > h3
 www.orsoon.com###xzq0
 www.orsoon.com##.fl.w_870 > div:nth-of-type(2)
@@ -147,6 +163,10 @@ www.yxdown.com##.type-pc.download > ul:nth-of-type(1)
 www.yxdown.com###ydbtn
 www.yxdown.com##.left_box > div:nth-of-type(5)
 www.yxdown.com##.right_330x360
+www.yxdown.com###highdown1
+www.yxdown.com##.dl
+www.yxdown.com##.gsdown > ul
+www.yxdown.com###xx660
 ||static.yxdown.com/cjimages/*_*.gif$image
 www.xt70.com##.xzbox-gh
 www.xt70.com##.xzbox-lf > .clearfix:nth-of-type(1)
@@ -175,6 +195,8 @@ dl.pconline.com.cn##.links > p:nth-of-type(1)
 www.xitongzhijia.net##.fix.media:nth-of-type(1)
 www.xitongzhijia.net##.J_tab_cont.fix > .fl:nth-of-type(2)
 www.xitongzhijia.net###article_soft_ad1
+www.xitongzhijia.net##h3.title:nth-of-type(1)
+www.xitongzhijia.net##h3.title:nth-of-type(2)
 rj.xiaopi.com###banner
 www.downza.cn##.ads.pull-right
 www.downza.cn##.down_top
@@ -191,8 +213,6 @@ www.962.net##.address_like:nth-of-type(3)
 www.962.net##.address_like:nth-of-type(4)
 www.962.net##.address_like:nth-of-type(1)
 www.962.net###m-game-down > h3:nth-of-type(1)
-www.xp510.com##.xzbox-gh
-www.xp510.com##div.mt20.box_right:nth-of-type(4)
 www.zol.com.cn##.n1-pad-entrance-wrap:nth-of-type(1)
 www.zol.com.cn##.n1-pad-entrance-wrap:nth-of-type(1)
 www.zol.com.cn##.today-hot-layer
@@ -206,6 +226,7 @@ www.xpgod.com###d2d > .yx
 www.xpgod.com###d3d > .yx
 www.smzy.com###x_pc_down_g
 www.smzy.com##dt:nth-of-type(1)
+www.smzy.com###downurl_pc2
 www.zhuoyaju.com##tr
 www.crsky.com##.fast_down
 www.crsky.com##.Spdwon
@@ -233,6 +254,9 @@ www.qqtn.com##.f-fl.g-main-left > div:nth-of-type(6)
 www.qqtn.com###Top_760_60
 www.greenxiazai.com##.down-bd > div
 www.greenxiazai.com##.down-rr
+www.greenxiazai.com##li.dl-ico:nth-of-type(2)
+www.greenxiazai.com##li.dl-ico:nth-of-type(3)
+www.greenxiazai.com##.ul_Address > li:nth-of-type(1)
 www.veryhuo.com##.w720
 www.veryhuo.com###w721
 www.veryhuo.com##.gaosud
@@ -252,11 +276,15 @@ www.xdowns.com##.cchide
 www.xdowns.com###pos1
 www.jz5u.com##.co_content5 > div:nth-of-type(1) > ul:nth-of-type(1)
 www.jz5u.com##.co5r
+www.jz5u.com##.co_content7 > [href^="/Soft/softdown.asp"]
 www.3987.com##.tongyixzq.clearfix
 www.3987.com##.fl.dl-area > .title:nth-of-type(1)
 www.3987.com##.down_show_left
 www.3987.com##.topadbox
 www.3987.com##.like_bottom:nth-of-type(5)
+www.3987.com##.xzbox-lf > ul.clearfix:nth-of-type(1)
+www.3987.com##p.title:nth-of-type(1)
+www.3987.com##p.title:nth-of-type(2)
 www.7edown.com##.urltitle:nth-of-type(1)
 www.7edown.com##.urltitle:nth-of-type(2)
 www.52z.com###softdown
@@ -278,6 +306,8 @@ www.onlinedown.net##.clearfix.downgs
 www.onlinedown.net##.downDz > h4:nth-of-type(1)
 www.onlinedown.net##.mwidth:nth-of-type(8)
 www.onlinedown.net##.clearfix.softDownIf > .right
+www.onlinedown.net##.onedownwp
+www.onlinedown.net##.downxzqtir
 www.kt51.com##a[href="http://1.055intn.cn:60/n2/46"]
 www.gewara.com###hezuozhuanqu
 www.1000kan.cc##body > .bdad1 > a[href^="http://downlaod.xiaocen.com/i/"]
@@ -297,6 +327,10 @@ www.zdfans.com##.widget_d_banner_row.widget_d_banner.widget
 www.zdfans.com##.sidebar > .adsbygoogle
 www.zdfans.com##.content > center:nth-of-type(1)
 www.zdfans.com##center:nth-of-type(2)
+www.zdfans.com##.sue
+www.zdfans.com###gaosuxiazai
+www.zdfans.com##dd
+www.zdfans.com##.left > p:nth-of-type(2)
 www.btbtt.me###wrapper_left_bg
 www.btbtt.me###wrapper_right_bg
 www.znds.com###sitefocus
@@ -315,8 +349,11 @@ www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(3)
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(4)
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(5)
+www.ddooo.com##.bottom1
+www.ddooo.com##.DownloadSfot > .hf
 www.ddooo.com##.txtfont:nth-of-type(1)
 www.cncrk.com###xzq > div:nth-of-type(1)
+www.cncrk.com##dl.clearfix:nth-of-type(1)
 www.ttrar.com##.xzsbox
 www.ttrar.com##.list_lf
 www.ttrar.com##.sort_list > .clearfix:nth-of-type(1)
@@ -363,37 +400,25 @@ ifkjx.com###\39 1banner > .col-md-12
 ifkjx.com###\39 1shengqian
 
 !20181006增加
-mydown.yesky.com##.yestkydownad
-mydown.yesky.com##.blank30
-mydown.yesky.com##.diy-banner > .blank20
 www.wishdown.com###_ys_xiazai2
 www.sonimei.cn##center
-www.ddooo.com##.bottom1
 www.xigua17.com##dl:nth-of-type(7) > [href="http://1.055intn.cn:60/n2/150"]
 www.xigua17.com##.wrap > [href="http://1.055intn.cn:60/n2/150"]
 www.xigua17.com##.mtop.play-right > [href="http://1.055intn.cn:60/n2/150"]
-www.onlinedown.net##.onedownwp
-www.onlinedown.net##.downxzqtir
-www.yxdown.com###highdown1
-www.yxdown.com##.dl
-www.yxdown.com##.gsdown > ul
-www.yxdown.com###xx660
 www.fxxz.com##li.f-down-link.address_like:nth-of-type(1)
-www.ddooo.com##.DownloadSfot > .hf
-bbs.zhiyoo.com###showlogin
-bbs.zhiyoo.com##.tips_screen
-bbs.zhiyoo.com###sitefocus
 www.pcsoft.com.cn##.clearfix.xz_list > .zjbb_lb.list_ltbox.list_rg
 www.pcsoft.com.cn##div.mar0.xzsbox:nth-of-type(6)
 www.pcsoft.com.cn##.gsxzdl.clearfix
 www.pcsoft.com.cn###tab_list_id > .cpu-feeds-block
+www.pcsoft.com.cn##.mar0.tao-xzsbox.xzsbox
 www.05sun.com##.soft.ct-c
 www.05sun.com##.soft.add-l > span:nth-of-type(2)
 www.minixiazai.com##ul.zm.mod-list:nth-of-type(1)
 www.minixiazai.com##h3.mg-t5:nth-of-type(2)
 www.minixiazai.com##h3.mg-t5:nth-of-type(3)
-bbs.winning11cn.com##.a_cb.a_fl
-bbs.winning11cn.com##.a_cb.a_fr
-bbs.winning11cn.com##.a_t.wp
-bbs.winning11cn.com##.a_cn
-bbs.pcbeta.com###sitefocus
+
+!20181013增加
+www.fixdown.com##.list_lf
+www.fixdown.com##.ad_id_17.list_rg
+www.downcc.com##.ul_Address > h3:nth-of-type(1)
+www.downcc.com##.ul_Address > h3:nth-of-type(2)
