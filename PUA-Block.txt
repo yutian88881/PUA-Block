@@ -424,3 +424,4 @@ www.downcc.com##.ul_Address > h3:nth-of-type(1)
 www.downcc.com##.ul_Address > h3:nth-of-type(2)
 www.xp510.com###hongbao
 www.xp510.com##.red.title
+www.xp510.com##.xzbox-gh
