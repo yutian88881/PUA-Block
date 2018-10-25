@@ -117,6 +117,12 @@ www.greenxf.com##.download-list > li:nth-of-type(1)
 www.greenxf.com##.download-list > li:nth-of-type(2)
 www.greenxf.com##.download-list > li:nth-of-type(3)
 www.greenxf.com##.download-list > li:nth-of-type(4)
+www.greenxf.com##.down-list > li:nth-of-type(2)
+www.greenxf.com##.down-list > li:nth-of-type(3)
+www.greenxf.com##.down-list > li:nth-of-type(4)
+www.greenxf.com##.down-list > li:nth-of-type(1)
+www.greenxf.com##.down-list > li:nth-of-type(5)
+www.greenxf.com##.A4
 www.xz7.com##.address_like:nth-of-type(3)
 www.xz7.com##.address_like:nth-of-type(4)
 www.xz7.com##.address_like:nth-of-type(2)
@@ -156,6 +162,7 @@ www.downkr.com##.show_induce.dl.mt10.ml10.PicTextList1 > li:nth-of-type(2)
 www.downkr.com##.show_induce.dl.mt10.ml10.PicTextList1 > li:nth-of-type(1)
 www.downkr.com###download-content > .hidden-xs:nth-of-type(1)
 www.downkr.com##.page-content.col-lg-9 > .hidden-xs
+www.downkr.com###download-content > .content-block.hidden-sm.hidden-xs
 www.huacolor.com##.list_lg
 www.huacolor.com##.list_lf
 www.yxdown.com##.gname:nth-of-type(1)
@@ -218,6 +225,7 @@ www.zol.com.cn##.n1-pad-entrance-wrap:nth-of-type(1)
 www.zol.com.cn##.today-hot-layer
 www.zol.com.cn##.clearfix.wrapper:nth-of-type(5)
 www.zol.com.cn###iframe_zmall
+xiazai.zol.com.cn##.box-top-ad
 www.xpgod.com##.down_r
 www.xpgod.com##.show_xzq.clearfix
 www.xpgod.com###d2d > .clearfix:nth-of-type(1)
@@ -274,6 +282,8 @@ www.udashi.com##div:nth-of-type(2) > a[href="http://apidl.udashi.com/xiazai/uds/
 www.udashi.com##.mod-margin-right-10.mod-pull-left.mod-hack-line.mod-740 > div:nth-of-type(5)
 www.xdowns.com##.cchide
 www.xdowns.com###pos1
+www.xdowns.com##ul.tx_list_7:nth-of-type(1)
+www.xdowns.com###tips
 www.jz5u.com##.co_content5 > div:nth-of-type(1) > ul:nth-of-type(1)
 www.jz5u.com##.co5r
 www.jz5u.com##.co_content7 > [href^="/Soft/softdown.asp"]
@@ -422,6 +432,24 @@ www.fixdown.com##.list_lf
 www.fixdown.com##.ad_id_17.list_rg
 www.downcc.com##.ul_Address > h3:nth-of-type(1)
 www.downcc.com##.ul_Address > h3:nth-of-type(2)
+www.downcc.com###gaosuxiazai
 www.xp510.com###hongbao
 www.xp510.com##.red.title
 www.xp510.com##.xzbox-gh
+www.xp510.com##.xzbox-lf > ul.clearfix:nth-of-type(1)
+
+!20181025增加
+www.3322.cc##.DetCM1XZ
+www.3322.cc##.DetCM1XZ1
+www.3322.cc##.gsxzdz.tab-cont-item > ul:nth-of-type(1)
+www.3322.cc##.gsxzdz.tab-cont-item > p:nth-of-type(1)
+www.3322.cc###myaas1
+www.pc0359.cn##.ul_Address > li:nth-of-type(1)
+www.ddooo.com##.listaddr > li:nth-of-type(2)
+www.ddooo.com##.listaddr > li:nth-of-type(3)
+www.ddooo.com##.listaddr > li:nth-of-type(4)
+www.ddooo.com##.listaddr > li:nth-of-type(5)
+www.upantool.com##.detail-down
+www.jisuxz.com##ul.downloads:nth-of-type(1)
+www.jisuxz.com##.download-list > span:nth-of-type(1)
+www.jisuxz.com##.download-share
