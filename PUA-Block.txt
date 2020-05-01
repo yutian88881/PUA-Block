@@ -199,11 +199,6 @@ www.ouyaoxiazai.com##ul > .cf:nth-of-type(1)
 www.ouyaoxiazai.com##.qzhengfu
 www.hanzify.org##.mirrordock > div:nth-of-type(1)
 dl.pconline.com.cn##.links > p:nth-of-type(1)
-www.xitongzhijia.net##.fix.media:nth-of-type(1)
-www.xitongzhijia.net##.J_tab_cont.fix > .fl:nth-of-type(2)
-www.xitongzhijia.net###article_soft_ad1
-www.xitongzhijia.net##h3.title:nth-of-type(1)
-www.xitongzhijia.net##h3.title:nth-of-type(2)
 rj.xiaopi.com###banner
 www.downza.cn##.ads.pull-right
 www.downza.cn##.down_top
@@ -453,3 +448,22 @@ www.upantool.com##.detail-down
 www.jisuxz.com##ul.downloads:nth-of-type(1)
 www.jisuxz.com##.download-list > span:nth-of-type(1)
 www.jisuxz.com##.download-share
+
+!20181025增加
+www.3987.com##.xzbox-gh
+www.duote.com###middle_banner
+www.weidown.com##.xzq.dtt2
+www.weidown.com##.dt2
+www.weidown.com##dl.clearfix:nth-of-type(1)
+weidown.com##.xzq.dtt2
+weidown.com##dl.clearfix:nth-of-type(1)
+www.coolcloudx.com##dd
+www.coolcloudx.com##.ad3
+www.jb51.net##p.gs:nth-of-type(1)
+www.xue51.com###gsxz > dl:nth-of-type(1)
+www.fixdown.com##dl.clearfix:nth-of-type(1)
+www.downza.cn##div.down_remove:nth-of-type(1)
+
+
+
+
