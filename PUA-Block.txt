@@ -455,8 +455,6 @@ www.duote.com###middle_banner
 www.weidown.com##.xzq.dtt2
 www.weidown.com##.dt2
 www.weidown.com##dl.clearfix:nth-of-type(1)
-weidown.com##.xzq.dtt2
-weidown.com##dl.clearfix:nth-of-type(1)
 www.coolcloudx.com##dd
 www.coolcloudx.com##.ad3
 www.jb51.net##p.gs:nth-of-type(1)
@@ -465,10 +463,10 @@ www.fixdown.com##dl.clearfix:nth-of-type(1)
 www.downza.cn##div.down_remove:nth-of-type(1)
 
 !20200831增加
-weidown.com##dl.clearfix:nth-of-type(1)
 www.weidown.com##div.quickBox:nth-of-type(1)
 www.weidown.com##p.label:nth-of-type(1)
 www.weidown.com###yzmcms_digg_div
+www.weidown.com##.downHeadBox
 www.xue51.com###gsxz > dl:nth-of-type(1)
 www.xdowns.com##.gsdt.clearfix
 www.kxdw.com##.gsdt.clearfix
