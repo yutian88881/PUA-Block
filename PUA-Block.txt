@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20200501
+!Version: 20200831
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -463,3 +463,17 @@ www.jb51.net##p.gs:nth-of-type(1)
 www.xue51.com###gsxz > dl:nth-of-type(1)
 www.fixdown.com##dl.clearfix:nth-of-type(1)
 www.downza.cn##div.down_remove:nth-of-type(1)
+
+!20200831增加
+weidown.com##dl.clearfix:nth-of-type(
+www.xue51.com###gsxz > dl:nth-of-type(1)
+www.xdowns.com##.gsdt.clearfix
+www.kxdw.com##.gsdt.clearfix
+www.kkx.net###bz_position
+www.xp510.com##.bzClick
+userstyles.org##.android_button_button
+userstyles.org##.android_button_banner
+ilxdh.com##.clearfix.banner-container
+www.32r.com##.gsaxzdz.tab-cont-item > ul:nth-of-type(1)
+www.32r.com##.gsaxzdz.tab-cont-item > p:nth-of-type(1)
+www.32r.com###myaas1
