@@ -465,7 +465,7 @@ www.fixdown.com##dl.clearfix:nth-of-type(1)
 www.downza.cn##div.down_remove:nth-of-type(1)
 
 !20200831增加
-weidown.com##dl.clearfix:nth-of-type(
+weidown.com##dl.clearfix:nth-of-type(1)
 www.xue51.com###gsxz > dl:nth-of-type(1)
 www.xdowns.com##.gsdt.clearfix
 www.kxdw.com##.gsdt.clearfix
