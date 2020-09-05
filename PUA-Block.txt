@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20200831
+!Version: 20200905
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -72,12 +72,6 @@ bbs.zhiyoo.com###sitefocus
 www.youtube.com###header
 v.pptv.com###video-download-game
 www.zhibo8.cc##.ad_box_250
-!视频站开启h5加载播放器不正常的
-*/MediaPlugin.swf$domain=v.qq.com
-||imgcache.qq.com/*/MediaPlugin.swf$domain=~v.qq.com
-*/MediaPlugin.swf$domain=sports.qq.com
-||imgcache.qq.com/*/MediaPlugin.swf$domain=~sports.qq.com
-||v.qq.com/x/webtips$subdocument
 
 !招聘网站
 www.liepin.com##.guider
@@ -348,8 +342,6 @@ www.7down.com##dt:nth-of-type(1)
 www.jb51.net##h3:nth-of-type(2)
 www.jb51.net###gaosu
 www.jb51.net##h3:nth-of-type(3)
-segmentfault.com##.widget-register-slideUp.widget-welcome.hidden-sm.hidden-xs.mt20.widget-welcome-question.widget-register
-www.ddooo.com##.downloadright > .ads
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(2)
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(3)
 www.ddooo.com##.download.DownloadSfotCon:nth-of-type(1) > .list > li:nth-of-type(4)
@@ -368,8 +360,6 @@ www.duote.com##.mod_tips
 www.duote.com##ul:nth-of-type(2)
 www.duote.com##hr
 www.duote.com##.dl_list_s1.dl_list > ul:nth-of-type(1)
-www.ttmeiju.com###miaov_float_layer
-fortinet.en.softonic.com###Newsletter-Subscription-en-container
 www.fxxz.com##.show_adv.page_all
 www.fxxz.com##.c_soft_gg
 www.3322.cc##.art2-b
@@ -379,12 +369,6 @@ zt.diyiapp.com##.am-sticky-placeholder > div:nth-of-type(5)
 www.d9soft.com##.clearfix.xzq.listinfo_011
 www.d9soft.com###related-special
 www.d9soft.com##.speed_down:nth-of-type(1)
-www.wmzhe.com###xiazai > div:nth-of-type(2) > div:nth-of-type(2)
-www.wmzhe.com##dl:nth-of-type(2)
-www.wmzhe.com##.soft_con_neirong > .overflow > div:nth-of-type(1)
-www.wmzhe.com##.soft_con_neirong > .overflow
-www.wmzhe.com##.mt10:nth-of-type(4)
-www.wmzhe.com##.overflow:nth-of-type(1)
 dilidili.wang###popUp
 www.wanyx.com##.clearfix.dn_cont
 www.youxiaxiazai.com##.nyggdm:nth-of-type(4)
@@ -396,8 +380,6 @@ www.rjno1.com##.user3-ad
 www.rjno1.com##.user2-ad
 www49.zippyshare.com##.center_ad
 www49.zippyshare.com##.center:nth-of-type(3)
-www.upload.ee###smad_parentcee82794-bb0b-4a1b-b027-2114ffd57eb7
-www.upload.ee###smad_parentc1d1b9fa-8a12-4488-9a50-e09769953ecf
 ip.chinaz.com###topTxt
 ip.chinaz.com###loc
 ip.chinaz.com##.mt10.ptb10.wrapper
@@ -407,9 +389,6 @@ ifkjx.com###\39 1shengqian
 !20181006增加
 www.wishdown.com###_ys_xiazai2
 www.sonimei.cn##center
-www.xigua17.com##dl:nth-of-type(7) > [href="http://1.055intn.cn:60/n2/150"]
-www.xigua17.com##.wrap > [href="http://1.055intn.cn:60/n2/150"]
-www.xigua17.com##.mtop.play-right > [href="http://1.055intn.cn:60/n2/150"]
 www.fxxz.com##li.f-down-link.address_like:nth-of-type(1)
 www.pcsoft.com.cn##.clearfix.xz_list > .zjbb_lb.list_ltbox.list_rg
 www.pcsoft.com.cn##div.mar0.xzsbox:nth-of-type(6)
@@ -478,3 +457,14 @@ ilxdh.com##.clearfix.banner-container
 www.32r.com##.gsaxzdz.tab-cont-item > ul:nth-of-type(1)
 www.32r.com##.gsaxzdz.tab-cont-item > p:nth-of-type(1)
 www.32r.com###myaas1
+
+!20200905增加
+@@||g.huya.com^$script,domain=www.huya.com
+www.32r.com##.gsdbtn.DetCM1LLdown_new
+www.32r.com###myaas
+www.3xiazai.com##dl.clearfix:nth-of-type(1)
+www.kkx.net##.bzxz1
+www.uisdc.com##.container.postTopShow.topShow
+www.uisdc.com##.show.sidebar-fixed
+www.uisdc.com##.article-bt
+www.uisdc.com##.article-show
