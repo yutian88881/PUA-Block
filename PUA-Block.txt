@@ -468,3 +468,20 @@ www.uisdc.com##.container.postTopShow.topShow
 www.uisdc.com##.show.sidebar-fixed
 www.uisdc.com##.article-bt
 www.uisdc.com##.article-show
+
+!20200908增加
+www.wmzhe.com##.downl_L
+www.wmzhe.com##.a_dwrap
+www.wmzhe.com##div.mt10:nth-of-type(4)
+www.wmzhe.com##.soft_con_neirong > .overflow
+www.3h3.com##.gaosu_div
+www.3h3.com###myaas1
+www.3h3.com##.gsxzdz.tab-cont-item > p:nth-of-type(1)
+www.3h3.com###myaas
+www.3h3.com###gaosu_down_bt
+www.gxdy.com.cn###gaosu_div0
+www.gxdy.com.cn##.fix.list-down > h3:nth-of-type(1)
+www.81857.net###gsxza
+www.81857.net##.xzq
+www.81857.net##.download-address.box-xz1 > span:nth-of-type(2)
+www.81857.net###downloadTop
