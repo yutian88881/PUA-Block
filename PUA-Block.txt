@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20200908
+!Version: 20200918
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -123,6 +123,10 @@ www.xz7.com##.address_like:nth-of-type(2)
 www.xz7.com##.ul_Address > li:nth-of-type(1)
 www.xz7.com##.zjy
 www.xz7.com##.xzs
+www.xz7.com##.J_tab_cont.fix > div:nth-of-type(2)
+www.xz7.com##.tab-cont-item-none.J_tab_cont_item.tab-cont-item > .title
+www.xz7.com###bz-ad-position2 > b
+www.xz7.com##.J_tab_cont.fix > .fr
 www.33lc.com##.xzsbox
 www.33lc.com##.clearfix:nth-of-type(1) > dd
 www.33lc.com##.dt2
@@ -149,6 +153,7 @@ www.cr173.com##.xiazaiqi.address_like:nth-of-type(4)
 www.cr173.com##.ul_Address > h3:nth-of-type(1)
 www.cr173.com##.ul_Address > h3:nth-of-type(2)
 www.cr173.com###\32 ff3538f-a2b4-4e95-a4e6-6ae2757914f4
+www.cr173.com###full_downad
 www.pc6.com###gaosuxiazai
 www.pc6.com##.on.address-wrap > .ul_Address > h3:nth-of-type(1)
 www.downkr.com##.show_induce.dl.mt10.ml10.PicTextList1 > li:nth-of-type(3)
@@ -485,3 +490,11 @@ www.81857.net###gsxza
 www.81857.net##.xzq
 www.81857.net##.download-address.box-xz1 > span:nth-of-type(2)
 www.81857.net###downloadTop
+
+! 20200918增加
+www.epinv.com##.nobg.topblock
+www.ahg9h3.info##.banner-center
+www.lanzoux.com##rnkybv
+www.winwin7.com##.ibox2 > div:nth-of-type(2) > .bzxz
+www.winwin7.com##.gsdt.clearfix
+www.winwin7.com###bzFixBottom
