@@ -86,11 +86,6 @@ www.liepin.com##.guider
 !常见下载站广告
 www.sd173.com##.downlink_l > p:nth-of-type(1)
 www.sd173.com##.downlink_l > div:nth-of-type(1)
-www.sdbeta.com##.txtfont:nth-of-type(1)
-www.sdbeta.com##li:nth-of-type(2) > a[href^="http://www.sdbeta.com/zhdown.php"]
-www.sdbeta.com##li:nth-of-type(1) > a[href^="http://www.sdbeta.com/zhdown.php"]
-www.sdbeta.com##.file_urlsnew.file_urls > ul:nth-of-type(1) > li:nth-of-type(1)
-www.sdbeta.com##.file_urlsnew.file_urls > ul:nth-of-type(1)
 www.bkill.com##.cross-ad
 www.bkill.com##.smt10.clearfix.half-ads
 www.bkill.com##.fr.alliance-ad
