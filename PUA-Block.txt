@@ -518,6 +518,3 @@ www.fxxz.com##li.f-down-link.address_like:nth-of-type(3)
 www.fxxz.com##li.f-down-link.address_like:nth-of-type(2)
 www.pcsoft.com.cn##.der.clearfix
 cn.bing.com###mfa_root
-www.sdbeta.com##.col1
-www.sdbeta.com##[href^="https://www.qy.cn/free/"]
-www.sdbeta.com##[href="http://bbs.sdbeta.com"]
