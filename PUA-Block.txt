@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20200918
+!Version: 20201014
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -20,6 +20,10 @@ www.baidu.com##.FsLdKO:nth-of-type(1)
 www.baidu.com###content_left > div:nth-of-type(2)
 www.baidu.com##.lIkCqt.ISMJkd
 www.baidu.com##.rrecom-container
+
+!在百度搜索结果中屏蔽卡饭教程
+baidu.com###content_left>div:has(a:contains(https://www.kafan.cn/edu/))
+baidu.com###content_left>div:has(a:contains(https://www.kafan.cn/category/))
 
 !扩展及脚本站、样式站主页
 tampermonkey.net##.scripts.p100100.noborder > tbody > tr > td:nth-of-type(2)
@@ -87,7 +91,6 @@ www.sdbeta.com##li:nth-of-type(2) > a[href^="http://www.sdbeta.com/zhdown.php"]
 www.sdbeta.com##li:nth-of-type(1) > a[href^="http://www.sdbeta.com/zhdown.php"]
 www.sdbeta.com##.file_urlsnew.file_urls > ul:nth-of-type(1) > li:nth-of-type(1)
 www.sdbeta.com##.file_urlsnew.file_urls > ul:nth-of-type(1)
-www.sdbeta.com##.maindown_w4
 www.bkill.com##.cross-ad
 www.bkill.com##.smt10.clearfix.half-ads
 www.bkill.com##.fr.alliance-ad
@@ -272,7 +275,6 @@ www.gezila.com##.tishi
 www.gezila.com##.down > dl:nth-of-type(1)
 www.gezila.com##.down_bg
 www.gezila.com##.downurl
-www.udashi.com##div:nth-of-type(2) > a[href="http://apidl.udashi.com/xiazai/uds/downurl/tid/3767"]
 www.udashi.com##.mod-margin-right-10.mod-pull-left.mod-hack-line.mod-740 > div:nth-of-type(5)
 www.xdowns.com##.cchide
 www.xdowns.com###pos1
@@ -312,9 +314,7 @@ www.onlinedown.net##.mwidth:nth-of-type(8)
 www.onlinedown.net##.clearfix.softDownIf > .right
 www.onlinedown.net##.onedownwp
 www.onlinedown.net##.downxzqtir
-www.kt51.com##a[href="http://1.055intn.cn:60/n2/46"]
 www.gewara.com###hezuozhuanqu
-www.1000kan.cc##body > .bdad1 > a[href^="http://downlaod.xiaocen.com/i/"]
 www.1000kan.cc##.introtxt > div
 www.down12.com##.adr-ist-1:nth-of-type(2)
 www.down12.com##.adr-ist-2
@@ -326,7 +326,6 @@ www.down12.com##.adr-2
 www.repaik.com##.a_cn
 www.repaik.com###wechat_float_qrcode
 www.haokan666.com##.adstop960
-www.haokan666.com###content > a[href^="http://downlaod.xiaocen.com/i/"]
 www.zdfans.com##.widget_d_banner_row.widget_d_banner.widget
 www.zdfans.com##.sidebar > .adsbygoogle
 www.zdfans.com##.content > center:nth-of-type(1)
@@ -498,3 +497,32 @@ www.lanzoux.com##rnkybv
 www.winwin7.com##.ibox2 > div:nth-of-type(2) > .bzxz
 www.winwin7.com##.gsdt.clearfix
 www.winwin7.com###bzFixBottom
+
+! 20201014增加
+www.v5pc.com##.downnowgaosu.m-bdtn
+www.v5pc.com###gaosuxiazai
+www.v5pc.com##h3.f-gsh3:nth-of-type(1)
+www.v5pc.com###full_downad
+www.wanyx.com###gs_down_game
+www.wanyx.com##.gs_box
+www.wanyx.com##.zx_box
+www.aiweibk.com##.area-c
+www.aiweibk.com###bzFixBottom
+www.aiweibk.com##.lili
+www.aiweibk.com##.le > p:nth-of-type(2)
+www.aiweibk.com##.c_money
+www.yxbao.com###gs_down
+www.yxbao.com##.mainwrap > div:nth-of-type(7)
+www.yxbao.com##div.downadd:nth-of-type(1)
+www.yxbao.com##.gm_gs_down > p:nth-of-type(2)
+www.yxbao.com###div_game_300x250
+www.xz7.com##img.bzxz
+www.fxxz.com##.clearfix.ul_Address > h3:nth-of-type(1)
+www.fxxz.com##li.f-down-link.address_like:nth-of-type(4)
+www.fxxz.com##li.f-down-link.address_like:nth-of-type(3)
+www.fxxz.com##li.f-down-link.address_like:nth-of-type(2)
+www.pcsoft.com.cn##.der.clearfix
+cn.bing.com###mfa_root
+www.sdbeta.com##.col1
+www.sdbeta.com##[href^="https://www.qy.cn/free/"]
+www.sdbeta.com##[href="http://bbs.sdbeta.com"]
