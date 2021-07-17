@@ -1,5 +1,5 @@
 !Title: 防误下载流氓软件
-!Version: 20201014
+!Version: 20210717
 
 !屏蔽百度软件中心（并不能彻底去除）
 !最好在CSS中加入以下代码
@@ -68,6 +68,8 @@ bbs.winning11cn.com##.a_cb.a_fr
 bbs.winning11cn.com##.a_t.wp
 bbs.winning11cn.com##.a_cn
 bbs.pcbeta.com###sitefocus
+bbs.pcbeta.com##.ijyzEGJ
+bbs.pcbeta.com##.jBCS
 bbs.zhiyoo.com###showlogin
 bbs.zhiyoo.com##.tips_screen
 bbs.zhiyoo.com###sitefocus
@@ -243,6 +245,10 @@ www.crsky.com###wt > .yellowdown:nth-of-type(2)
 www.crsky.com###wt > .yellowdown:nth-of-type(3)
 www.crsky.com##.box:nth-of-type(1)
 www.crsky.com##.mirror-special.mirror-adr
+www.crsky.com##.i_dwon
+www.crsky.com##.Adown_v_gs.clearfix
+www.crsky.com##.clearfix.fl.Adown_dbox.wper49 > .Adown_v_title
+www.crsky.com##.adowGright.clearfix.fr
 www.qqtn.com##.address_like:nth-of-type(2)
 www.qqtn.com##.address_like:nth-of-type(3)
 www.qqtn.com##.address_like:nth-of-type(4)
@@ -518,3 +524,18 @@ www.fxxz.com##li.f-down-link.address_like:nth-of-type(3)
 www.fxxz.com##li.f-down-link.address_like:nth-of-type(2)
 www.pcsoft.com.cn##.der.clearfix
 cn.bing.com###mfa_root
+
+! 2021-07-17 新增
+www.51job.com##.app_dl
+www.liepin.com##.reg-layer
+otp.landian.vip##div.row > .col-xs-12.col-sm-12.col-md-12 > .mb30
+www.360totalsecurity.com##.opera-in-download
+www.7xdown.com##.gsdt.clearfix
+www.7xdown.com##.fixed-bar
+www.ucbug.com###downShow_serverAd2
+www.ucbug.com###down-server > .ad
+sm.ms##.accept_to_chat
+sm.ms##.advert_foot.col-lg-6
+sm.ms##.advert_nav
+www.chromefor.com##.header-ad > .adsbygoogle
+www.bilibili.com##.login-tip
